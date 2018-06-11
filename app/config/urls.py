@@ -19,7 +19,7 @@ from education.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('student/', include('polls.student')),
-    path('school/', include('blog.school')),
+    path('student/', include('student')),
+    path('school/', include('school')),
     path('', index),
 ]
