@@ -5,7 +5,7 @@ def index(request):
     context = {
         'student': student,
     }
-    return render(request, 'polls/index.html', context)
+    return render(request, 'education/index.html', context)
 
 
 def student(request, student_id):
